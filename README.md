@@ -2,6 +2,10 @@
 
 # Student Portfolio Website MCP
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/Zhao-yuanpu/college-student-resume-website-mcp/version.svg)](https://yarkr.com/arks/zhao-yuanpu/college-student-resume-website-mcp)
+<!-- yarkr:badges:end -->
+
 `student-portfolio-website-mcp` is a local stdio MCP server for safely working on student portfolio and resume websites. It keeps design judgment with your agent and user, while it inspects projects and performs explicitly approved Git and package-script steps.
 
 ## Prerequisites
@@ -175,3 +179,35 @@ The MCP supplies guarded project operations; the skill supplies the website-maki
 
 ## Demo
 [personal website demo](https://zyp2026.com/)
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/zhao-yuanpu/college-student-resume-website-mcp) as the ark [zhao-yuanpu/college-student-resume-website-mcp](https://yarkr.com/arks/zhao-yuanpu/college-student-resume-website-mcp), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync zhao-yuanpu/college-student-resume-website-mcp
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:zhao-yuanpu/college-student-resume-website-mcp/building-student-portfolio-websites
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add zhao-yuanpu/college-student-resume-website-mcp
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/zhao-yuanpu/college-student-resume-website-mcp`.
+<!-- yarkr:install:end -->
